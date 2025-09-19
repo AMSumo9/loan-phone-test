@@ -2,7 +2,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
-permalink: /blog/:title/
+permalink: /:title/
 future: false
 timezone: Australia/Brisbane
 
