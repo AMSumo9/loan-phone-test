@@ -1,43 +1,18 @@
 ---
-title: "Finance Blog | Tips & News | The Loan Phone"
+layout: default
+title: "Finance Blog"
 permalink: /blog/
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-white">
-    <header class="bg-white shadow-sm">
-        <nav class="container mx-auto px-6 py-4">
-            <a href="{{ '/' | relative_url }}" class="text-2xl font-bold text-red-600">THE LOAN PHONE</a>
-            <div class="mt-4">
-                <a href="{{ '/blog/' | relative_url }}" class="text-blue-600 hover:underline">Blog</a>
-            </div>
-        </nav>
-    </header>
-    
-    <main class="container mx-auto px-6 py-8">
-        <h1 class="text-4xl font-bold mb-8">Finance Blog</h1>
-        
-        {% if site.posts.size > 0 %}
-            <div class="grid gap-6">
-                {% for post in site.posts %}
-                <article class="border rounded p-6">
-                    <h2 class="text-2xl font-bold mb-2">
-                        <a href="{{ post.url | relative_url }}" class="text-blue-600 hover:underline">{{ post.title }}</a>
-                    </h2>
-                    <p class="text-gray-600 mb-2">{{ post.date | date: "%B %d, %Y" }}</p>
-                    <p class="text-gray-800">{{ post.excerpt | strip_html | truncate: 150 }}</p>
-                </article>
-                {% endfor %}
-            </div>
-        {% else %}
-            <p>No posts yet.</p>
-        {% endif %}
-    </main>
-</body>
-</html>
+
+# Finance Blog
+
+Explore our latest posts:
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span style="color: #666;">{{ post.date | date: "%B %d, %Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>
