@@ -1,7 +1,7 @@
 title: "The Loan Phone Blog"
 description: "Finance tips, home loan, car loan guides"
 author: "AM"
-baseurl: "/loanphone-test"
+baseurl: "/loan-phone-test"
 url: "https://amsumo9.github.io"
 theme: minima
 plugins:
