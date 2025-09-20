@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "First Home Buyer's Guide to Mortgages"
+title: "XXXXXXXXXXXXXXXXXXXXXXFirst Home Buyer's Guide to Mortgages"
 date: 2025-01-25
 description: "Everything first-time buyers need to know about getting a home loan."
 ---
 
-# First Home Buyer's Guide to Mortgages
+# XXXXXXXXXXXXXXXXXXXXXXXXFirst Home Buyer's Guide to Mortgages
 
 Buying your first home is exciting, but the loan process can seem overwhelming. This guide breaks down everything you need to know to navigate your first mortgage successfully.
 
