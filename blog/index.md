@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Finance Test Blog"
+title: "Finance Blog"
 permalink: /blog/
 ---
 
