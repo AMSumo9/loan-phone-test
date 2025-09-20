@@ -1,12 +1,9 @@
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-permalink: /:title/
-future: false
-timezone: Australia/Brisbane
-
-title: "The Loan Phone - Test"
-description: "Test site for loan comparison"
-url: "https://your-username.github.io"
+title: "The Loan Phone Blog"
+description: "Finance tips, home loan, car loan guides"
+author: "AM"
 baseurl: "/loanphone-test"
+url: "https://amsumo9.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
